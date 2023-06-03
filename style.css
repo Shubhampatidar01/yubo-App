@@ -1,0 +1,660 @@
+@font-face {
+    font-family: right;
+    src: url(RightGrotesk-CompactBlack.otf);
+}
+@font-face {
+    font-family: left;
+    src: url(RightGrotesk-Regular.ttf);
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#page1{
+
+    width: 100%;
+    height: 100%;
+    background-color: aqua ;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: cover;
+
+}
+h1{
+    font-size: 160px;
+    font-weight: 4500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: left;
+    color: #FFE30A ;
+    text-align: center;
+    line-height: 140px;
+
+}
+#main{
+    height: 60px;
+    width: 140px;
+    border-radius: 50px;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+    right: 5%;
+    top: 8%;
+}
+img{
+    width: 240px;
+    height: 200px;
+    position: fixed;
+    z-index: 999;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#page1 h4 i{
+     color: white;
+    font-size: 52px;
+    position: fixed;
+    z-index: 999;
+    top: 8%;
+     left:10%;
+     font-weight: 600;
+
+
+}
+#main h3 i{
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    top: 14%;
+    left: 15%;
+}#main h5 {
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    top: 14%;
+    right: 46%;
+}
+#main h2 i{
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    top: 14%;
+    right: 16%;
+}
+#page2{
+position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:#FFE30A ;
+    overflow: hidden;
+
+}
+#page2 #left {
+    height: 100%;
+    width: 50%;
+    
+}
+#page2 #left h1{
+    font-size: 130px;
+    color: black;
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    text-align: start;
+    line-height: 140px;
+    font-weight: 1600;
+    font-family: left;
+}
+
+#page2 #left img{
+    position: relative;
+    top: 85%;
+    left:30%;
+}
+#page2 #right {
+    width: 100%;
+    height: 100%;
+    background-image:  url(p2\ phone.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+}
+#page2 #right h2 img{
+    position: absolute;
+    top: 62%;
+    left: 34%;
+    height: 15%;
+    width: 15%;   
+}
+#page2 #right h3 img{
+    position: absolute;
+    top: 81%;
+    left: 27%;
+    height: 28%;
+    width: 28%; 
+}
+#right h4 img{
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    height: 25%;
+    width: 20%; 
+}
+#right h5 img{
+    position: absolute;
+    top: 67%;
+    left: -2%;
+    height: 15%;
+    width: 15%; 
+}
+#right h6 img{
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    height: 20%;
+    width: 16%; 
+}
+#page3{
+    
+    width: 100%;
+    height: 100%;
+    background-color: red ;
+
+}
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: #FFE30A;
+    overflow: hidden;
+}
+#page3 #bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(p2\ after\ bg.svg);
+    background-size: cover; 
+    position: relative;  
+}
+#page3 h1{
+    font-size: 150px;
+    font-weight: 1000;
+    color: #FFE30A;
+    position: relative;
+    top: -40%;
+    left: 60%;
+    text-align: left;
+    line-height: 130px;
+    font-family: left;
+}
+#page3 h2{
+    position: relative;
+    top: -110%;
+    left: 50%;
+    font-size: 37px;
+    color: white;
+}
+#bg #bt button{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    left: 55%;
+    bottom: 20%;
+    height: 80px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #FFE30A;
+
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(21, 20, 0);
+}
+#page4 #image {
+    
+    height: 100%;
+    width: 35%;
+    background-image: url(p3\ girl.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    
+}
+#page4 h2 img{
+    position: relative;
+    top: 105px;
+    left: 28%;
+    height: 100%;
+    width: 28%;
+}
+#page4 h1{
+    position: relative;
+    font-size: 32px;
+    color: #fff;
+    line-height: 40px;
+    top: 38%;
+    left: 30%;
+    font-weight: 200;
+    
+}
+#page4 h6 button{
+    position: relative;
+    bottom: -200px;
+    left: 19%;
+    height: 70px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #FFE30A;
+    font-size: 21px;
+    font-weight: 600;
+
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(21, 20, 0);
+    overflow: hidden;
+
+}
+#page5 p button{
+    position:relative;
+    top: 400px;
+    left: 70%;
+    height: 70px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #FFE30A;
+    font-size: 21px;
+    font-weight: 600;
+
+}
+#page5 h1{
+    position: relative;
+    font-size: 160px;
+    text-align: start;
+    color: #FFE30A;
+    font-family: right;
+    left: 1000px;
+    top: 300px;
+    font-weight: 4600;
+    letter-spacing: 12px;
+}
+#page5 h1 img{
+    padding: 1px 1px;
+    position:absolute;
+    left: 8%;
+    top: 70px;
+    height: 150px;
+
+}
+#page6{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(21, 20, 0);
+    /* overflow: hidden; */
+
+}
+#page6 #bag{
+    height: 100%;
+    width: 100%;
+    background-image: url(p6\ bg.svg);
+    background-size: cover; 
+
+}
+#page6 #bag #box1{
+    height: 72%;
+    width: 35%;
+    background-color: rgb(0, 0, -1);
+    background-image: url(p7\ pink.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: relative;
+    left: 45%;
+}
+#page6 #bag #box1 #white{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+#bag #box1 h1 button{
+    position:relative;
+    bottom: 290px;
+    right: 210px;
+    height: 60px;
+    width: 120px;
+    border-radius: 25px;
+    background-color:rgb(230, 69, 69);
+    font-size: 21px;
+    font-weight: 600;
+    border: none;
+}
+#bag #box1 h2{
+    position: relative;
+    top: 35%;
+    left: 15%;
+    font-size: 60px;
+    color: white;
+    letter-spacing: -1px;
+    font-family: right;
+    font-weight: 1900;
+    
+}
+#bag #box1 h3{
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    left: 110px;
+    font-size: 21px;
+    font-weight: 200;
+}
+#bag #box1 h3 img{
+    position: absolute;
+    left: -21px;
+    height: 25px;
+    width: 25px;
+}
+#page6 #bag #boxx2{
+    height: 68%;
+    width: 24%;
+    background-color: rgb(0, 0, -1);
+    background-image: url(p7\ yellow.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: relative;
+    left: 12%;
+    bottom: 37%;
+}
+#page6 #bag #boxx2 #yellow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+#bag #boxx2 h1 button{
+    position:relative;
+    bottom: 280px;
+    left: 120px;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color:rgb(101, 101, 197);
+    font-size: 21px;
+    border: none;
+    font-weight: 600;
+}
+#bag #boxx2 h2{
+    position: relative;
+    top: 55%;
+    left: 15%;
+    font-size: 70px;
+    color: white;
+    letter-spacing: -1px;
+    font-family: right;
+    font-weight: 1900;
+    line-height: 80px;
+
+    
+}
+#bag #boxx2 h3{
+    position: absolute;
+    color: white;
+    bottom: 30px;
+    left: 90px;
+    font-size: 21px;
+    font-weight: 200;
+}
+#bag #boxx2 h3 img{
+    position: absolute;
+    left: -21px;
+    height: 25px;
+    width: 25px;
+}
+#page6 #bag #box3{
+    height: 70%;
+    width: 26%;
+    background-color: rgb(0, 0, -1);
+    background-image: url(kalu3.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: relative;
+    left: 49%;
+    bottom: 490px;
+}
+#page6 #bag #box3 #black{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+#bag #box3 h1 button{
+    position:relative;
+    bottom: 290px;
+    right: 120px;
+    height: 40px;
+    width: 130px;
+    border-radius: 15px;
+    background-color:#FFE30A;
+    font-size: 21px;
+    font-weight: 600;
+    border: none;
+}
+#bag #box3 h2{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 50px;
+    color: white;
+    letter-spacing: -1px;
+    line-height: 70px;
+    font-family: right;
+    font-weight: 1900;
+    
+}
+#bag #box3 h3{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 90px;
+    font-size: 21px;
+    font-weight: 200;
+}
+#bag #box3 h3 img{
+    position: absolute;
+    left: -22px;
+    height: 25px;
+    width: 25px;
+}
+#page7{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(151, 107, 255);
+    
+
+    
+
+}
+#page7 #here{ 
+    position: relative;
+    z-index: 1;
+    left: 510px;
+    top: 510px;
+    height: 400px;
+    width: 580px;
+    background-image: url(here\ for.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    
+  
+}
+#page8{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(151, 107, 255);
+    background-image: url(bg9.svg);
+    background-size: cover;
+    overflow: hidden;
+}
+#page h6{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+#page8 h6 img{
+   
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 40%;
+    margin-left: 20px;
+    top: 670px;
+    
+
+}
+
+#page8 h1{
+    position: relative;
+    left: 20%;
+    top: 302px;
+    color: black;
+    font-size: 30px;
+    font-family: right;
+    
+}
+#page8 h1 p{
+    font-size: 20px;
+    position: relative;
+    line-height: 40px;
+    font-weight: 10;
+    font-family:left;
+    top: -28px;
+    
+
+}
+#page8 h2{
+    position: relative;
+    left: 30%;
+    top: -98px;
+    color: black;
+    font-size: 30px;
+    font-family: right;
+    
+}
+#page8 h2 p.a{
+    font-size: 20px;
+    position: relative;
+    line-height: 40px;
+    font-weight: 10;
+    font-family:left;
+    top: 20px;
+    
+
+}
+#page8 h3{
+    position: relative;
+    left: 45%;
+    top: -212px;
+    color: black;
+    font-size: 30px;
+    font-family: right;
+    
+}
+#page8 h3 p.b{
+    font-size: 20px;
+    position: relative;
+    line-height: 40px;
+    font-weight: 10;
+    font-family:left;
+    top: 20px;
+    
+
+}
+#page8 h4{
+    position: relative;
+    left: 61%;
+    top: -532px;
+    color: black;
+    font-size: 30px;
+    font-family: right;
+    
+}
+#page8 h4 p.c{
+    font-size: 20px;
+    position: relative;
+    line-height: 40px;
+    font-weight: 10;
+    font-family:left;
+    top: 20px;
+    
+
+}
+#page8 h5{
+    position: relative;
+    left: 79%;
+    top: -852px;
+    color: black;
+    font-size: 30px;
+    font-family: right;
+    
+}
+#page8 h5 p.d{
+    font-size: 20px;
+    position: relative;
+    line-height: 40px;
+    font-weight: 10;
+    font-family:left;
+    top: 20px;
+    
+
+}
+#page8 p.last {
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    
+    font-weight: 900;
+    font-family: right;
+
+}
+#page8 p.abc{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    letter-spacing: -0.5px;
+    font-family: left;
+       
+}
+#page8 p.english {
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    font-weight: bold;
+    font-family: right;
+}
